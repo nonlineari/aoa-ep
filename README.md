@@ -5,7 +5,7 @@ NLS Records · Friday drop · 18 September 2026
 Masters **010819** · MP3 160k / 44.1 kHz / stereo
 
 Plate: [iama.cc/catalogue/aoa](https://iama.cc/catalogue/aoa/)  
-Interpreter: [MAGMA](https://cobalt-tulip-royal-orchid.grok.me/)  
+Interpreter: [MAGMA](https://iama.cc/magma/)  
 Git for [@nlsrecords](https://x.com/nlsrecords) — this repository is the distribution.
 
 Cover: [`cover.png`](cover.png)
