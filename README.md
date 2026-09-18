@@ -2,30 +2,32 @@
 
 **Naked Nuras Loves Rave**  
 NLS Records · Friday drop · 18 September 2026  
-Masters **010819**
+Masters **010819** · MP3 160k / 44.1 kHz / stereo
 
 Plate: [iama.cc/catalogue/aoa](https://iama.cc/catalogue/aoa/)  
 Interpreter: [MAGMA](https://cobalt-tulip-royal-orchid.grok.me/)  
 Git for [@nlsrecords](https://x.com/nlsrecords) — this repository is the distribution.
 
-## Tracklist
+Cover: [`cover.png`](cover.png)
+
+## Audio
 
 | # | Title | Time | File |
 |---|---|---|---|
-| 01 | MORE'S LOW | 13:10 | WAV master — drop into `audio/` |
-| 02 | TRACK FOR | 13:45 | WAV master — drop into `audio/` |
+| 01 | MORE'S LOW | 13:10 | `audio/mores-low.mp3` — drop in |
+| 02 | TRACK FOR | 13:45 | `audio/track-for.mp3` — drop in |
 | 03 | GETAFIX | 5:37 | [`audio/getafix.mp3`](audio/getafix.mp3) |
-| 04 | TRYTO | 11:37 | WAV master — drop into `audio/` |
+| 04 | TRYTO | 11:37 | `audio/tryto.mp3` — drop in |
 
-Total 45:09
+Same encode as GETAFIX:
 
-## MAGMA
+```bash
+ffmpeg -i "AOA - TRACK FOR_(Mastered_010819).wav" \
+  -c:a libmp3lame -b:a 160k -ar 44100 -ac 2 \
+  audio/track-for.mp3
+```
 
-Neuro-linguistic visual interpreter. Type a sentence; the four axioms grow it as magma. Dual machines — Noise protocol vs Improved Noise — correspond with MORE'S LOW and TRACK FOR. GETAFIX swells on MixKey. TRYTO is surplus circulation.
-
-→ [cobalt-tulip-royal-orchid.grok.me](https://cobalt-tulip-royal-orchid.grok.me/)
-
-## Machines
+## MAGMA buses
 
 - **MORE'S LOW** — protocol / strata. Form follows function.
 - **TRACK FOR** — improved noise / meshwork curl.
@@ -41,10 +43,5 @@ ffplay audio/getafix.mp3
 ```
 
 Site player: [GETAFIX on iama.cc](https://iama.cc/catalogue/aoa/)
-
-## Catalogue
-
-NLS · AOA EP · Friday drop  
-Hong Kong · visual music
 
 © NLS Records / Naked Nuras Loves Rave
