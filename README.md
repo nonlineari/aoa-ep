@@ -17,15 +17,9 @@ Cover: [`cover.png`](cover.png)
 | 01 | MORE'S LOW | 8:10 | [`audio/mores-low.mp3`](audio/mores-low.mp3) |
 | 02 | TRACK FOR | 8:15 | [`audio/track-for.mp3`](audio/track-for.mp3) |
 | 03 | GETAFIX | 5:37 | [`audio/getafix.mp3`](audio/getafix.mp3) |
-| 04 | TRYTO | 11:37 | `audio/tryto.mp3` — drop in |
+| 04 | TRYTO | 8:07 | [`audio/tryto.mp3`](audio/tryto.mp3) |
 
-Same encode as GETAFIX:
-
-```bash
-ffmpeg -i "AOA - TRACK FOR_(Mastered_010819).wav" \
-  -c:a libmp3lame -b:a 160k -ar 44100 -ac 2 \
-  audio/track-for.mp3
-```
+Total 30:09 · 160k CBR · 44.1 kHz stereo
 
 ## MAGMA buses
 
@@ -42,6 +36,7 @@ cd aoa-ep
 ffplay audio/mores-low.mp3
 ffplay audio/track-for.mp3
 ffplay audio/getafix.mp3
+ffplay audio/tryto.mp3
 ```
 
 Site players: [iama.cc/catalogue/aoa](https://iama.cc/catalogue/aoa/)
