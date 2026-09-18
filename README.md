@@ -5,6 +5,7 @@ NLS Records · Friday drop · 18 September 2026
 Masters **010819**
 
 Plate: [iama.cc/catalogue/aoa](https://iama.cc/catalogue/aoa/)  
+Interpreter: [MAGMA](https://cobalt-tulip-royal-orchid.grok.me/)  
 Git for [@nlsrecords](https://x.com/nlsrecords) — this repository is the distribution.
 
 ## Tracklist
@@ -17,6 +18,12 @@ Git for [@nlsrecords](https://x.com/nlsrecords) — this repository is the distr
 | 04 | TRYTO | 11:37 | WAV master — drop into `audio/` |
 
 Total 45:09
+
+## MAGMA
+
+Neuro-linguistic visual interpreter. Type a sentence; the four axioms grow it as magma. Dual machines — Noise protocol vs Improved Noise — correspond with MORE'S LOW and TRACK FOR. GETAFIX swells on MixKey. TRYTO is surplus circulation.
+
+→ [cobalt-tulip-royal-orchid.grok.me](https://cobalt-tulip-royal-orchid.grok.me/)
 
 ## Machines
 
